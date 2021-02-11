@@ -27,3 +27,9 @@ html, body {
   top: 35%;
 }
 
+.logo {
+  position: absolute;
+  width: 55%;
+  right: 5%;
+  bottom: 5%;
+}

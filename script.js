@@ -13,8 +13,10 @@ ad.style.backgroundSize = "cover"; //pak mozna vyresit vix flexibilne orezavani
 //tady vyresit cernobilost
 
 //TEXT
-text1 = ad.getElementsByClassName("text1")[0];
-text2 = ad.getElementsByClassName("text2")[0];
+var text1 = ad.getElementsByClassName("text1")[0];
+var text2 = ad.getElementsByClassName("text2")[0];
 
-
+//LOGO
+var logo = ad.getElementsByClassName("logo")[0];
+logo.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Bud%C4%9Bjovick%C3%BD_Budvar_logo_vector.svg/1599px-Bud%C4%9Bjovick%C3%BD_Budvar_logo_vector.svg.png";
 
